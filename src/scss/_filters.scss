@@ -1,0 +1,25 @@
+.filters {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter>.form-select, .filter>.form-control {
+    height: 2rem;
+    width: 20rem;
+    margin-right: 20px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    &__title {
+        margin-bottom: 10px;
+    }
+}
+

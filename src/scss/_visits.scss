@@ -1,0 +1,39 @@
+.visits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card {
+    margin-top: 25px;
+    width: 25rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h6.title {
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.btn--edit {
+    margin-right: 5px;
+
+}
+
+.btn--showMore {
+    margin: 0 auto;
+    display: block;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body-hide.hide {
+    display: none;
+}
